@@ -210,8 +210,8 @@ margin-top: 4%;
 }
 footer{
 margin-top: 4%;
-background-color: #E6E6E6;
-}
+background-color:rgb(77, 77, 202);
+ }
 form h1{
 color: red;
 text-decoration: underline;
@@ -254,9 +254,9 @@ color: #fff;
 }
 .local{
 display: flex;
-background-color: #0B0B3B;
+background-color: rgb(77, 77, 202);
 border-top-right-radius: 20%;
-
+border-top: 2px solid #fff;
 }
 #local{
 margin-left:6%;
