@@ -7,23 +7,25 @@
 	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 	<link rel="stylesheet" type="text/css" href="style1.css">
+	<link rel="icon" href="people-2561845_1920.jpg">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="fontawesome/css/all.css">
 	<link rel="stylesheet" type="text/css" href="fontawesome/css/fontawesome.css">
 	<link rel="stylesheet" type="text/css" href="fontawesome/css/brands.css">
 	<link rel="stylesheet" type="text/css" href="fontawesome/css/solid.css">
-	 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+	 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css">
+
 </head>
 <body>
-	<header>
-		<nav>
+	<header class="head">
+		<nav class="animate__animated animate__backInLeft">
 			<div>
 				<h1>World <span>Hair</span></h1>
 			</div>
 				<ul>
 					<li><a href="#">Accueil</a></li>
-					<li><a href="#">Salons</a></li>
-					<li><a href="#">Prendre Rdv</a></li>
+					<li><a href="salons.html">Salons</a></li>
+					<li><a href="#">Mes Rendez-Vous</a></li>
 					<li><a href="#">Favoris</a></li>
 					<li><a href="#">Contacts</a></li>
 				</ul>
@@ -33,60 +35,71 @@
 			<div id="carouselExampleControls" class="carousel slide form" data-ride="carousel">
 			  <div class="carousel-inner">
 			    <div class="carousel-item active">
-			      <img class="d-block w-100" src="1.jpg" alt="First slide">
+			      <img class="d-block w-100" src="people-2561845_1920.jpg" alt="First slide">
 			    </div>
 			    <div class="carousel-item">
-			      <img class="d-block w-100" src="2.jpg" alt="Second slide">
+			      <img class="d-block w-100" src="beauty-salon-3277314_1920.jpg" alt="Second slide">
 			    </div>
 			    <div class="carousel-item">
-			      <img class="d-block w-100" src="urban-438393_1280.jpg" alt="Third slide">
+			      <img class="d-block w-100" src="haircut-834280_1920.jpg" alt="Third slide">
 			    </div>
 			  </div>
 			</div>
 
-			<form class="formulaire">
-				<div><h1>Mon rendez-vous</h1></div>
+			<form class="formulaire animate__animated animate__backInLeft">
+				<div><h1>Prendre rendez-vous</h1></div>
 				<label>Nom:<br>
 					<input type="text" name="nom">
 				</label><br>
 				<label>Prenom:<br>
-					<input type="text" name="nom"><br>
+					<input type="text" name="prenom"><br>
 				</label>
-				<select>
+				<label>Lieu:<br>
+				<select name="quartier">
+					<option></option>
 					<option>Yopougon</option>
 					<option>Abobo</option>
 					<option>Port bouet</option>
 					<option>Rivera</option>
 					<option>Cocody</option>
 				</select><br>
+				</label><br>
+				<label>Type de coiffure:<br>
+					<select name="quartier">
+					<option></option>
+					<option>Femme</option>
+					<option>Homme</option>					
+				</select>
+				</label><br>
 				<label>heures de passage:<br>
-					<input type="text" name="nom"><br>
+					<input type="text" name="hour"><br>
 				</label><br>
 
 				<input id="submit" type="submit" name="" value="Envoyer">
 				
 			</form>
-			<div class="descri">
+			<div class="descri animate__animated animate__backInDown">
 				<h6>Rendons nous beaux et belles dans nos meilleurs salons de coiffure chez</h6>
 				<h5>WORLD HAIR </h5>
 			</div>
+		
 	<section id="sect1">
-
-		<div class="div-open">
+		
+		<div class="div-open ">
 			<h2>Salons Ouverts</h2>
-			<a class="open" href="#"><span>* Barber Shop </span>Yopougon</a><br>
-			<a class="open" href="#"><span>* Barber Shop </span>Abobo</a><br>
-			<a class="open" href="#"><span>* Barber Shop </span>Cocody</a><br>
-			<a class="open" href="#"><span>* Barber Shop </span>Rivera</a><br>
-			<a class="open" href="#"><span>* Barber Shop </span>Port Bouet</a>
+			<a class="open" href="salons.html"><span>* Barber Shop </span>Yopougon</a><br>
+			<a class="open" href="salons.html"><span>* Barber Shop </span>Abobo</a><br>
+			<a class="open" href="salons.html"><span>* Barber Shop </span>Cocody</a><br>
+			<a class="open" href="salons.html"><span>* Barber Shop </span>Rivera</a><br>
+			<a class="open" href="salons.html"><span>* Barber Shop </span>Port Bouet</a>
 		</div>
 		<div id="carouselExampleControls" class="carousel slide form1" data-ride="carousel">
 			  <div class="carousel-inner">
 			    <div class="carousel-item active">
-			      <img class="d-block w-100" src="1.jpg" alt="First slide">
+			      <img class="d-block w-100" src="beauty-salon-4043096_1920.jpg" alt="First slide">
 			    </div>
 			    <div class="carousel-item">
-			      <img class="d-block w-100" src="2.jpg" alt="Second slide">
+			      <img class="d-block w-100" src="barber-1453064_1920.jpg" alt="Second slide">
 			    </div>
 			    <div class="carousel-item">
 			      <img class="d-block w-100" src="urban-438393_1280.jpg" alt="Third slide">
@@ -95,7 +108,7 @@
 			</div>
 	</section>
 	
-		<div id="hour">
+		<div id="hour" class=" animate__animated  animate__backInRight ">
 			<div class="hour">
 				<h4>Ouverture <span>Yopougon</span></h4>
 				<p>Jours: <span>Lundi - Dimanche</span></p>
@@ -127,10 +140,10 @@
 			<div id="carouselExampleControls" class="carousel slide form2" data-ride="carousel">
 			  <div class="carousel-inner">
 			    <div class="carousel-item active">
-			      <img class="d-block w-100" src="1.jpg" alt="First slide">
+			      <img class="d-block w-100" src="beauty-salon-3277314_1920.jpg" alt="First slide">
 			    </div>
 			    <div class="carousel-item">
-			      <img class="d-block w-100" src="2.jpg" alt="Second slide">
+			      <img class="d-block w-100" src="hair-5160176_1920.jpg" alt="Second slide">
 			    </div>
 			    <div class="carousel-item">
 			      <img class="d-block w-100" src="urban-438393_1280.jpg" alt="Third slide">
@@ -147,6 +160,8 @@
 			<div class="pub">
 				<div>
 					<h6>A ne pas manquer</h6>
+					<img src="haircut-834280_1920.jpg"  style="width:280px; height: 400px; margin-top: 10%">
+					<p  style=" font-size: 17px; text-transform: uppercase; font-weight: bold;">Nouveau salon de coiffure ouvert pour votre beauté</p>
 				</div>
 				
 			</div>
@@ -159,13 +174,9 @@
 			quis </p>
 				<button><a href="#">Lire plus</a></button>
 		</div>
-		
+		<img src="beauty-salon-3277314_1920.jpg">
 	</section>
-	<div class="pres">
-		<div class="animated infinite fadeIn but"></div>
-		<h1>Vos temoingnages</h1>
-		<div class="animated infinite fadeIn but1"></div>
-	</div>
+	
 	<section class="atach1">
 		<div>
 			<h2>Nos Attentes</h2>
@@ -174,17 +185,27 @@
 			quis .</p>
 				<button><a href="#">Lire plus</a></button>
 		</div>
+		<img src="hair-5160176_1920.jpg">
 	</section>
-	<footer>
-		<form>
-			<h1>S'inscrire a la Newsletter</h1>
-				<label>Email <br>
-					<i class="fa fa-user "></i><input type="email" name="email">
-				</label>
-				<label>Mot de passe <br>
-					<i class="fa fa-user"></i><input type="password" name="password">
-				</label>
-		</form>
+	<section style="height: 400px;">
+		<div class="pres">
+		<h1>Nos temoingnages</h1>
+		</div>
+		<p>Nos temoignages concernent les videos des personnes qui ont fait cette envie de venir se faire coiffer dans nos differents salons 
+		; ceux ci vous parlent du confort et de l'acceuil. </p>
+		<div class="prese">
+			<video controls="">
+				<source src="xamarin.mp4" type="video/mp4">
+			</video>
+			<video controls="">
+				<source src="xamarin.mp4" type="video/mp4">
+			</video>
+			<video controls="">
+				<source src="xamarin.mp4" type="video/mp4">
+			</video>
+		</div> 
+	</section>
+	<footer>		
 		<div class="contact">
 			<p>Nous contacter via nos plateformes suivantes et n’oubliez pas de vous y abonner</p>
 			<button style="background-color:blue; "><i class="fa fa-facebook"></i></button>
@@ -203,10 +224,12 @@
 			</div>
 			<div class="partner">
 				<h2>Partenaires:</h2>
-				<img src="">
-				<img src="">
+				<img src="1.jpg"  style="width:150px; height: 100px;">
+				<img src="2.jpg" style="width:150px; height: 100px;">
 			</div>
 		</div>
+		<p style="text-align: center; color: #fff; font-weight: bold;">Copyright by Elvis Society 2020 tout droit réservés</p>
 	</footer>
+	
 </body>
 </html>

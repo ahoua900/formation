@@ -1,0 +1,56 @@
+.form1{
+width: 80%;
+height: 400px;
+border-radius: 7px;
+border: 8px solid #400;
+margin-left: 10%;
+}
+.form1 img{
+width: 50%;
+height: 387px;
+}
+.hour{
+width: 22%;
+height: 230px;
+border-radius: 7px;
+}
+.hour p{
+font-weight: bold;
+font-size: 22px;
+}
+.hour h4{
+color: #400;
+font-size: 40px;
+text-decoration: underline;
+}
+span{
+color: red;
+font-size: 15px;
+}
+.presta{
+margin-left: 10%;
+display: flex;
+}
+.presta div{
+width: 50%;
+height: 200px;
+}
+ h3{
+color: #400;
+font-size: 35px;
+text-decoration: underline;
+}
+.generale1{
+	margin-top: 18%;
+}
+.hour button{
+width: 50%;
+height: 40px;
+background-color:#400;
+border-radius: 10px;
+}
+.hour button a{
+text-decoration: none;
+color: #fff;
+font-size: 20px;
+}
